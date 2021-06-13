@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/textview_amount_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textview_name_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Empty Item"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textview_finishWin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Kar "
+        android:textColor="#4CAF50"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textview_finishLost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Zarar "
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textview_finishStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text=" "
+
+        android:textColor="#100E0E"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+</LinearLayout>
